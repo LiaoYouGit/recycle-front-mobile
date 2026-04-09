@@ -1,0 +1,12 @@
+/* 公共样式 */
+page {
+  box-sizing: border-box;
+}
+
+view, text, image, input, textarea, button {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20rpx 30rpx;
+}
