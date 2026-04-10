@@ -1,5 +1,9 @@
 // 后端API地址
-const BASE_URL = 'http://localhost:8090'
+let BASE_URL = 'http://47.108.83.101:8090'
+// #ifdef H5
+const origin = document.location.origin
+BASE_URL = origin
+// #endif
 
 interface RequestOptions {
   url: string
